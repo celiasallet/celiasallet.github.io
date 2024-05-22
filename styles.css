@@ -1,10 +1,27 @@
-/* Typography */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Slabo+27px&display=swap');
+
+   
+ 
 
 html {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Manrope';
+ /*   width: 90%;
+    height: 90%;
+   
+    
+*/
+    
 }
 
-@media (min-width: 576px) {
+body {
+    width: 98%;
+
+    margin-top: 2rem;
+    
+}
+
+/*
+ @media (min-width: 576px) { 
 	html {
 		font-size: 14px;
 	}
@@ -29,47 +46,179 @@ html {
 }
 
 .icons-social i {
-	font-size: 3em;
+	font-size: 1em;
 }
 
-/* Custom Styles */
+ Custom Styles */
 
-main {
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-	justify-content: center;
-	padding: 0 30px;
-	text-align: center;
+ footer { 
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding-top: 1rem;
 }
 
-main > .intro {
-	font-family: 'Reem Kufi', sans-serif;
-	font-size: 3.75em;
-	font-weight: 600;
+header { 
+    width: 100%;
+	/* display: flex;  */
+	/* flex-direction: column;  */
+    text-align: center;
+     /* height: 90%; */
 }
 
-main > .tagline {
-	font-size: 1.5rem;
-	margin: 1.5rem 0;
-	font-weight: 100;
+.bonjour { 
+
+	font-family: 'Manrope', sans-serif;
+	font-size: 2.5rem;
+	font-weight: 800;
+    line-height: 3rem;
+    padding-bottom: 0.5rem;   
 }
 
-.icons-social i {
-	padding: 10px;
+.post {
+
+    font-size: 1.5rem;
+	padding-bottom: 1rem;
+    font-weight: 200;
 }
+
+#box {
+    display: flexbox;
+    text-align: center;
+    width: 100%;
+    height: 70vh;
+    /* padding-bottom: 0.5rem; */
+    background-color: aqua;
+}
+
+ /*.container { 
+    width: 100%;
+    display: block; 
+    text-align: center; 
+    background-color: black;
+ }
+
+   width: auto;
+    height: auto;
+    background-color: #0a0a23;
+}
+  */
+
+img {
+    /* display: block;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    text-align: center; */
+    width: auto;
+    height: 100%;
+}
+
 
 .icons-social a {
+
+  font-size: 1rem;
+  font-weight: 100;
   text-decoration: none;
+  padding: 0% 5% 0% 5%;
+ 
 }
 
-.devto {
-	margin-bottom: -0.20rem;
+
+.links {
+    color: rgb(93, 1, 179);
 }
 
-.devto svg {
-	margin-bottom: -0.20rem;
-	margin-left: 0.675rem;;
-	width: 2.65rem;
-	height: 2.65rem;
+
+
+/* MISE EN PAGE ACCEUIL
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:ital,wght@0,300;1,100&display=swap');
+
+html{
+    width: 90%;
 }
+
+body{ 
+    background: white;
+    width: 110%;
+}
+
+header{
+    
+    font-family: 'Bebas Neue', cursive;
+    font-size: 500%;
+    padding-inline-start: 4%;
+    padding-inline-end: 4%;
+    margin: 0%;
+    
+    
+}
+h1{
+    text-align: right;
+}
+
+
+ul{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 3%;
+    margin:-3% 0% 0% 0%;
+
+}
+
+ul li{
+    justify-content: center;
+    border: solid  white 3px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:3%;
+
+}
+
+
+ul li a {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 500%;
+    /* comment faire en sorte que la typo s'adapte au carré ? 
+    text-shadow: grey 1px 0 20px;
+    text-decoration: none;
+    position: absolute;
+    z-index: 1;
+}
+
+ul li a:hover {
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+ul li img{ 
+    position: relative;
+    width: 100%;
+    
+}
+
+
+footer{
+    display: inline-flex;
+    padding-right: 4%;
+    padding-top: 4%;
+    margin-left: 4%;
+}
+
+
+
+#contact{
+
+    margin-top: 4%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 270%;
+    margin-right: 7%;
+    
+}
+/* .title{
+    font-family: 'Bebas Neue', cursive;
+} */
+
+
+/* MISE EN PAGE ACCEUIL */ 
